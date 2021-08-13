@@ -1,243 +1,217 @@
 :root {
-    --secondary-title-color:#212121;
-    --main-text-color:#757575;
-    --main-akcent-color:#2196f3;
+  --secondary-title-color: #212121;
+  --main-text-color: #757575;
+  --main-akcent-color: #2196f3;
 }
 
 body {
   font-family: 'Roboto', 'Erial';
+  color: #212121;
 }
 
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
-.secondary-title{
-    font-weight: bold;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--secondary-title-color);
+.secondary-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
 }
-.main-text{
-    font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--main-text-color);
+.main-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
-.third-title{
-    font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--secondary-title-color);
+.third-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
 }
 /*--------------------------HEADER------------------------*/
 .logo-blu {
-    font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #2196f3
+  font-family: 'Raleway', 'Sans-serif';
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
-.logo-black{
-    font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #212121
+.logo-blu:hover,
+.logo-blu:focus {
+  color: #212121;
 }
-
-.header-link{
-    font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #212121
+.logo-black {
+  font-family: 'Raleway', 'Sans-serif';
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.header-link:hover, .header-link:focus{
-    color: var(--main-akcent-color)
+.logo-black:hover,
+.logo-black:focus {
+  color: var(--main-akcent-color);
 }
 
-.header-mail, .header-tel{
-    font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #757575;
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--main-akcent-color);
 }
 
-.header-mail:hover, .header-mail:focus, .header-tel:hover, .header-tel:focus{
-    color: var(--main-akcent-color);
+.header-mail,
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--main-akcent-color);
 }
 /*--------------------------HERO--------------------------*/
-.hero-title{
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
-.hero{
-    background-color: #2F303A;
+.hero {
+  background-color: #2f303a;
 }
 
-.button{
-font-weight: bold;
-font-size: 16px;
-line-height: 1.88;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: #FFFFFF;
+.button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
 }
 
-.button:hover, .button:focus{
-    background-color: var(--main-akcent-color);
+.button:hover,
+.button:focus {
+  background-color: var(--main-akcent-color);
 }
-.team-title{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em
-color:var(--secondary-title-color)
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em color var(--secondary-title-color);
 }
-.text-team{
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--main-text-color);
+.text-team {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
-
 
 /*--------------------------FOOTER------------------------*/
-.footer{
-    background-color: #2F303A;
+.footer {
+  background-color: #2f303a;
 }
 
-.logo-white{
-    font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #ffffff
+.logo-white {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
-.footer-map{
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #FFFFFF
+.logo-white:hover,
+.logo-white:focus {
+  color: var(--main-akcent-color);
 }
-
-.footer-mail, .footer-tel{
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);}
-
-.footer-map:focus, .footer-map:hover, .footer-mail:hover, 
-.footer-mail:focus, .footer-tel:hover, .footer-tel:focus{
-    color:var(--main-akcent-color);
+.footer-map {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
+.footer-mail,
+.footer-tel {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
 
+.footer-map:focus,
+.footer-map:hover,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--main-akcent-color);
+}
 
-/*Домашнее задание
-Настрой GitHub Pages и добавь ссылку на живую страницу в шапку GitHub-репозитория.
+/*----------------------Портфолио--------------------*/
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  color: #212121;
+  cursor: pointer;
+}
 
-Критерии приёма работы наставником
-Проект
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background-color: var(--main-akcent-color);
+}
 
-«A4» В названиях файлов нет заглавных букв, пробелов и транслита, только буквы и слова английского языка.
+.title-portfolio {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
 
-«A5» Исходный код отформатирован при помощи Prettier.
+.text-portfolio {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
-«A6» Все изображения и текстовый контент взяты из макета.
-
-«A7» Все растровые изображения оптимизированы используя squoosh.
-
-«A8» Код написан следуя руководству.
-
-Разметка
-«B1» Разметка страницы Портфолио набрана в файле portfolio.html.
-
-«B2» Выполнена HTML-разметка всех элементов макета.
-
-«B3» Теги использованы согласно их семантического смысла.
-
-«B4» HTML проходит проверку валидатором без ошибок.
-
-«B5» Имена классов описательные и понятные другому разработчику.
-
-«B6» Имена классов не содержат заглавных букв, пробелов, транслита и названий тегов, только буквы и слова английского языка. Если имя класса состоит из нескольких слов, они разделяются дефисом.
-
-«B7» Атрибут href навигационных ссылок Студия и Портфолио содержит относительный путь к HTML-файлам этих страниц. При нажатии по ссылке происходит переход на соответствующую страницу в текущей вкладке браузера.
-
-«B8» У тегов <img> указаны атрибуты размеров, как минимум width.
-
-«B9» Изображения экспортированы из макета в формате jpg.
-
-«B10» Группы однотипных элементов собраны в списки <ul>.
-
-«B11» Фильтр на странице Портфолио выполнен списком кнопок, каждой из которых задан атрибут type="button".
-
-«B12» Разметка хедера и футера одинаковая на всех страницах.
-
-«B13» Все необходимые по макету шрифты и их вариации (вес и начертание) подключены с сервиса Google Fonts одной ссылкой. Необходимый вес для Raleway – 700, а для Roboto – 400, 500, 700 и 900.
-
-«B14» Внутри разметки кнопок нет дополнительных элементов, например спанов или ссылок.
-
-Оформление
-«C1» Нет глобальных стилей элементов кроме <body>.
-
-«C2» Для оформления используются селекторы класса.
-
-«C3» В стилях отсутствует !important.
-
-«C4» У интерактивных элементов (кнопок и ссылок), при наведении мышкой или фокусе с клавиатуры, есть активное состояние указанное в макете (изменение цвета).
-
-«С5» Текст контактов в хедере и футере меняет цвет при ховере и фокусе.
-
-«C6» Для хранения палитры цветов макета (текст, фон, выделение) используются CSS-переменные.
-
-«С7» Для элемента <body> задано свойство font-family с доминантным на макете шрифтом Roboto.
-
-«С8» Указаны альтернативные варианты шрифта и тип семейства (без засечек) в конце перечисления font-family у элемента <body>.
-
-«С9» Семейство шрифтов Roboto явно задано только для элемента <body>, остальные элементы наследуют его.
-
-«С10» Для элемента <body> задано свойство color с доминантным на макете цветом текста. Остальной текст наследует или переопределяет это значение.
-
-«С11» Размер шрифта (свойство font-size) всех текстовых элементов точно соответствует значениям из макета.
-
-«С12» Высота строки (свойство line-height) всех текстовых элементов точно соответствует значениям из макета и задана как множитель, а не в px.
-
-«С13» Цвет (свойство color) всех текстовых элементов точно соответствует значениям из макета.
-
-«С14» Вес шрифта (свойство font-weight) всех текстовых элементов точно соответствует значениям из макета.
-
-«С15» Вес шрифта (свойство font-weight) явно указан только если значение в макете отличается от стандартного для этого элемента в браузере.
-
-«С16» Кнопкам задано свойство cursor со значением pointer.
-
-«С17» В стилях не повторяются значения свойств, которые заданы браузером по умолчнаию. Например, ссылкам не нужно указывать cursor: pointer, а абзацам font-style: normal или font-weight: 400*/
+.link-portfolio:hover {
+  color: var(--main-akcent-color);
+}
