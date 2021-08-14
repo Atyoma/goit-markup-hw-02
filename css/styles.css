@@ -74,6 +74,9 @@ body {
 .header-link:focus {
   color: var(--main-akcent-color);
 }
+.current {
+  color: var(--main-akcent-color);
+}
 
 .header-mail,
 .header-tel {
@@ -114,12 +117,18 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  background-color: var(--main-akcent-color);
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .button:hover,
 .button:focus {
-  background-color: var(--main-akcent-color);
+  background-color: #188ce8;
+}
+
+.team {
+  background-color: #f5f4fa;
 }
 .team-title {
   font-weight: 500;
